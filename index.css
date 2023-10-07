@@ -130,6 +130,7 @@ a{
 .seccion4{
     margin-right: 10%;
     margin-left: 10%;
+    padding-bottom: 30px;
 }
 .galeria{
     margin-top: 10%;
@@ -159,6 +160,99 @@ a{
     font-weight: bolder;
 }
 .seccion4-texto a:hover{
+    color: black;
+    background-color: grey;
+}
+.seccion5{
+    background-color: #f2f2f2;  
+}
+.seccion5 h2{
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 50px;
+}
+.caja-seccion5{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 48px 48px;
+    margin-bottom: 30px;
+}
+.caja-seccion5 p{
+    padding-bottom: 10px;
+}
+.imagenes-seccion5{
+    padding-top: 10px;
+    text-align: center;
+    width: 80px;
+    height: 70px;
+    background-color: #2ccc69;
+    border-radius: 50%;
+}
+.imagenes-seccion5 img{
+    margin-top: 15%;
+    width: 40px;
+}
+.seccion5 strong{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.seccion6{
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;  
+}
+.seccion6-parte1{
+    display: flex;
+    text-align: center;
+    background-image: url(/Imagenes/Persona3.jpg);
+    background-size: cover;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 130px;
+    height: 100px;
+}
+.info-imagen{
+    display: flex;
+    flex-direction: column;
+    background-color: #2ccc69;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    padding-bottom: 10px;
+}
+.info-imagen strong{
+    font-size: 25px;
+}
+.titulo-imagen{
+    padding-top: 10px;
+}
+.seccion6-texto-informativo{
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 20px;
+}
+.seccion6-texto-informativo p{
+    padding-bottom: 10px;
+}
+.seccion6-texto-informativo a{
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2ccc69;
+    border-radius: 50px;
+    color: white;
+    font-weight: bolder;
+}
+.seccion6-texto-informativo a:hover{
     color: black;
     background-color: grey;
 }
