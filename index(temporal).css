@@ -190,6 +190,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-left: 20%;
+  padding: 80px;
 }
 .seccion8 h2{
     font-size: 50px;
